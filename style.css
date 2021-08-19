@@ -142,7 +142,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 610px) {
+@media all and (min-width: 480px) {
 
   .group {
     display: flex;
@@ -162,6 +162,16 @@ footer p {
     width: 49%;
     padding-bottom: 5%; 
     margin-bottom: 2%; 
+  }
+
+}
+
+@media all and (min-width: 610px) {
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
 }
