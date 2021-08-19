@@ -145,9 +145,7 @@ footer p {
 @media all and (min-width: 480px) {
 
   .group {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: block
   }
 
 
